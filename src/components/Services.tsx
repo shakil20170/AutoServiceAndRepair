@@ -8,11 +8,10 @@ const Services: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-            Our Expert Services
+            Services
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            From routine maintenance to complex repairs, our certified technicians 
-            have the expertise and equipment to keep your vehicle running at its best.
+            From routine maintenance to complex repairs, My expertise and equipment to keep your vehicle running at its best.
           </p>
         </div>
         
@@ -68,7 +67,7 @@ const Services: React.FC = () => {
         
         <div className="mt-16 text-center">
           <p className="text-gray-700 font-medium mb-4">
-            Don't see the service you need? We offer a wide range of additional services.
+            Don't see the service you need? I offer a wide range of additional services.
           </p>
           <a 
             href="#contact" 

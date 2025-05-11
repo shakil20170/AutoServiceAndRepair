@@ -26,11 +26,8 @@ const ContactForm: React.FC = () => {
   const [submitSuccess, setSubmitSuccess] = useState(false);
   
   const serviceOptions = [
-    'Engine Repair',
     'Brake Service',
-    'Electrical Repair',
-    'AC & Heating',
-    'Transmission Service',
+    'Basic Electrical Repair',
     'Scheduled Maintenance',
     'Suspension & Steering',
     'Emergency Service',
@@ -193,7 +190,7 @@ const ContactForm: React.FC = () => {
                     className={`w-full px-4 py-3 rounded-md border ${
                       errors.phone ? 'border-red-500' : 'border-gray-300'
                     } focus:outline-none focus:ring-2 focus:ring-blue-500`}
-                    placeholder="(123) 456-7890"
+                    placeholder="+61 480-155-748"
                   />
                   {errors.phone && (
                     <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
@@ -293,8 +290,8 @@ const ContactForm: React.FC = () => {
                   <Phone className="h-6 w-6 text-red-400 mt-1 mr-4" />
                   <div>
                     <h4 className="font-bold mb-1">Phone</h4>
-                    <p>(123) 456-7890</p>
-                    <p className="text-sm text-gray-300 mt-1">Mon-Fri 8am-6pm, Sat 8am-2pm</p>
+                    <p>+61 480-155-748</p>
+                    <p className="text-sm text-gray-300 mt-1">24/7</p>
                   </div>
                 </div>
                 
@@ -302,7 +299,7 @@ const ContactForm: React.FC = () => {
                   <Mail className="h-6 w-6 text-red-400 mt-1 mr-4" />
                   <div>
                     <h4 className="font-bold mb-1">Email</h4>
-                    <p>service@autocare.example.com</p>
+                    <p>ysarowar786@gmail.com</p>
                     <p className="text-sm text-gray-300 mt-1">We respond within 24 hours</p>
                   </div>
                 </div>
@@ -311,8 +308,7 @@ const ContactForm: React.FC = () => {
                   <MapPin className="h-6 w-6 text-red-400 mt-1 mr-4" />
                   <div>
                     <h4 className="font-bold mb-1">Location</h4>
-                    <p>123 Repair Street</p>
-                    <p>Automotive City, AC 12345</p>
+                    <p>Dubbo, NSW-2830</p>
                   </div>
                 </div>
                 
@@ -321,12 +317,7 @@ const ContactForm: React.FC = () => {
                   <div>
                     <h4 className="font-bold mb-1">Business Hours</h4>
                     <div className="grid grid-cols-2 gap-x-4 gap-y-1">
-                      <p>Monday - Friday:</p>
-                      <p>8:00 AM - 6:00 PM</p>
-                      <p>Saturday:</p>
-                      <p>8:00 AM - 2:00 PM</p>
-                      <p>Sunday:</p>
-                      <p>Closed</p>
+                      <p>7 days in a week</p>
                     </div>
                   </div>
                 </div>
@@ -341,7 +332,7 @@ const ContactForm: React.FC = () => {
                   We offer 24/7 emergency roadside assistance for our customers.
                 </p>
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+61 480155748" 
                   className="inline-block bg-red-500 hover:bg-red-600 transition-colors text-white font-bold py-3 px-6 rounded-md"
                 >
                   Call Emergency Line

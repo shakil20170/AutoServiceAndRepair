@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Professional Auto Repair <span className="text-red-500">You Can Trust</span>
+            Yousuf Mobile Mechanic <span className="text-red-500">You Can Trust</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-xl">
               Expert mechanics, quality parts, and exceptional service. 
@@ -38,8 +38,7 @@ const Hero: React.FC = () => {
                 <span className="text-sm font-medium">Quality Guarantee</span>
               </div>
               <div className="flex items-center">
-                <Star className="h-5 w-5 text-red-500 mr-2" />
-                <span className="text-sm font-medium">5-Star Rated</span>
+                <span className="text-sm font-medium"> </span>
               </div>
             </div>
           </div>
@@ -51,7 +50,7 @@ const Hero: React.FC = () => {
                 alt="Mechanic working on car" 
                 className="rounded-lg shadow-xl w-full"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
+              {/* <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
                 <div className="flex items-center">
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -60,7 +59,7 @@ const Hero: React.FC = () => {
                   </div>
                   <span className="ml-2 text-blue-900 font-bold">500+ Happy Customers</span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

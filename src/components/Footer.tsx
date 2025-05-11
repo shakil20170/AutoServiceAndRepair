@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-6">
               <Car className="h-8 w-8 text-red-500 mr-2" />
-              <span className="text-2xl font-bold">AutoCare</span>
+              <span className="text-2xl font-bold">Yousuf Mobile Mechanic</span>
             </div>
             <p className="text-gray-400 mb-6">
               Professional auto repair services with a commitment to quality, honesty, and customer satisfaction.
@@ -47,27 +47,12 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li>
                 <Link href="#services" className="text-gray-400 hover:text-white">
-                  Engine Repair & Diagnostics
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-gray-400 hover:text-white">
                   Brake System Service
                 </Link>
               </li>
               <li>
                 <Link href="#services" className="text-gray-400 hover:text-white">
-                  Electrical System Repair
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-gray-400 hover:text-white">
-                  AC & Heating Service
-                </Link>
-              </li>
-              <li>
-                <Link href="#services" className="text-gray-400 hover:text-white">
-                  Transmission Service
+                  Basic Electrical System Repair
                 </Link>
               </li>
               <li>
@@ -86,21 +71,7 @@ const Footer: React.FC = () => {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link href="#about" className="text-gray-400 hover:text-white">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="#testimonials" className="text-gray-400 hover:text-white">
-                  Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link href="#gallery" className="text-gray-400 hover:text-white">
-                  Gallery
-                </Link>
-              </li>
+        
               <li>
                 <Link href="#contact" className="text-gray-400 hover:text-white">
                   Contact
@@ -115,20 +86,19 @@ const Footer: React.FC = () => {
               <li className="flex">
                 <MapPin className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0" />
                 <span className="text-gray-400">
-                  123 Repair Street<br />
-                  Automotive City, AC 12345
+                  Dubbo, NSW-2830<br />
                 </span>
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0" />
                 <a href="tel:+1234567890" className="text-gray-400 hover:text-white">
-                  (123) 456-7890
+                  +61 480-155-748
                 </a>
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-red-500 mt-1 mr-3 flex-shrink-0" />
-                <a href="mailto:service@autocare.example.com" className="text-gray-400 hover:text-white">
-                  service@autocare.example.com
+                <a href="mailto:ysarowar786@gmail.com" className="text-gray-400 hover:text-white">
+                  ysarowar786@gmail.com
                 </a>
               </li>
             </ul>
@@ -152,7 +122,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
-              © {currentYear} AutoCare. All rights reserved.
+              © {currentYear} Yousuf Mobile Mechanic. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-500 hover:text-white text-sm">

@@ -4,7 +4,7 @@ import Home from './pages/Home';
 function App() {
   useEffect(() => {
     // Update page title
-    document.title = 'AutoCare - Professional Automobile Services';
+    document.title = 'Yousuf Mobile Mechanic';
     
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

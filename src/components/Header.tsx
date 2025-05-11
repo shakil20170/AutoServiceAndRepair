@@ -25,15 +25,12 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Car className="h-8 w-8 text-red-500 mr-2" />
-            <span className="text-2xl font-bold text-blue-900">AutoCare</span>
+            <span className="text-2xl font-bold text-blue-900">Yousuf Mobile Mechanic</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
             <Link href="#home">Home</Link>
             <Link href="#services">Services</Link>
-            <Link href="#about">About</Link>
-            <Link href="#testimonials">Testimonials</Link>
-            <Link href="#gallery">Gallery</Link>
             <Link href="#contact">Contact</Link>
           </div>
           
@@ -43,7 +40,7 @@ const Header: React.FC = () => {
               className="flex items-center text-blue-900 hover:text-red-500 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              <span className="font-semibold">(123) 456-7890</span>
+              <span className="font-semibold">+61 480-155-748</span>
             </a>
           </div>
           
@@ -89,20 +86,6 @@ const Header: React.FC = () => {
               About
             </Link>
             <Link 
-              href="#testimonials" 
-              onClick={() => setIsOpen(false)}
-              className="block py-2 text-lg"
-            >
-              Testimonials
-            </Link>
-            <Link 
-              href="#gallery" 
-              onClick={() => setIsOpen(false)}
-              className="block py-2 text-lg"
-            >
-              Gallery
-            </Link>
-            <Link 
               href="#contact" 
               onClick={() => setIsOpen(false)}
               className="block py-2 text-lg"
@@ -114,7 +97,7 @@ const Header: React.FC = () => {
               className="flex items-center text-blue-900 hover:text-red-500 transition-colors py-2"
             >
               <Phone className="h-5 w-5 mr-2" />
-              <span className="font-semibold">(123) 456-7890</span>
+              <span className="font-semibold">+61 480-155-748</span>
             </a>
           </div>
         )}
